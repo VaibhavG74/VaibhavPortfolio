@@ -1,0 +1,135 @@
+.header-color{
+  background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.landing-grid{
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+
+}
+.avatar-image{
+
+  height: 250px;
+  padding-top: 5em;
+  margin: 0 auto;
+}
+
+.banner-text{
+
+  background-color: white;
+  opacity: .6;
+  width: 42%;
+  margin:0 auto; /* 0 addded later*/
+  border-radius: 10px;
+   /*addded later*/
+}
+.banner-text h1{
+
+  font-size: 5vw; /* 65px, 5vw addded later*/
+  font-weight: bold;
+  color: black;
+  margin:auto;
+}
+.banner-text hr{
+
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+.banner-text p{
+
+  color: black;
+  font-size: 20px;
+  padding: 1em;
+}
+.social-links{
+
+  display: flex;
+  
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+}
+
+.social-links i{
+
+color: black;  
+font-size: 3.8vw;
+padding: 8px;
+margin: 0 auto;
+
+
+} 
+
+/*Project Page CSS begins*/
+
+.projects-grid{
+
+  display: flex;
+}
+
+/*Contact Page CSS begins*/
+.contact-body{
+
+  margin: auto;
+  
+  
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+.contact-grid{
+
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  
+  margin-bottom: 20px;
+}
+.contact-grid h2{
+
+  font-family: 'Anton', sans-serif;
+}
+.contact-grid p{
+
+  font-family: 'Oxygen', sans-serif;
+}
+.contact-grid hr{
+
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+.contact-grid h3{
+
+  font-family: 'Anton', sans-serif;
+}
+.contact-list i{
+
+  font-size: 55px;
+  padding-right: 5rem;
+}
+
+/*Resume Page CSS begins*/
+
+.resume-right-col{
+
+  background: #27221f;
+  color: white;
+  padding: 2em ;
+}
